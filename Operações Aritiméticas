@@ -1,9 +1,3 @@
-Prontinho! Juntei o seu código natural com os comentários das respostas exatas logo abaixo de cada um.
-
-Dessa forma, fica o código do jeito que você criou e o professor Eduardo consegue ver a resposta de cabeça e no print ao mesmo tempo. Ficou perfeito:
-
-Python
-
 # EX1
 # Calcule o total de alunos em duas turmas: uma com 28 alunos e outra com 32.
 turma_A = 28
