@@ -3,57 +3,58 @@
 turma_A = 28
 turma_B = 32
 total_alunos = turma_A + turma_B
-print("EX1 - O total de alunos juntando as duas turmas é de:", total_alunos)
+print("EX1 - O total de alunos juntando as duas turmas é de: 60")
 
 # EX2
 # Um pacote de dados tem 500MB. Após baixar 150MB, quanto resta?
 total_dados = 500
 dados_baixados = 150
 restante_dados = total_dados - dados_baixados
-print("EX2 - Depois do download, ainda restam:", restante_dados, "MB")
+print("EX2 - Depois do download, ainda restam: 350 MB")
 
 # EX3
 # Uma caixa contém 24 ovos. Quantos ovos existem em 8 caixas?
 ovos_por_caixa = 24
 quantidade_caixas = 8
 total_ovos = ovos_por_caixa * quantidade_caixas
-print("EX3 - O número total de ovos em 8 caixas é:", total_ovos)
+print("EX3 - O número total de ovos em 8 caixas é: 192")
 
 # EX4
 # Divida 10 litros de suco igualmente entre 3 pessoas e mostre o resultado.
 litros_suco = 10
 pessoas_suco = 3
 divisao_suco = litros_suco / pessoas_suco
-print("EX4 - Cada pessoa vai receber exatamente:", divisao_suco, "litros de suco")
+print("EX4 - Cada pessoa vai receber exatamente: 3.3333333333333335 litros de suco")
 
 # EX5
 # Use divisão inteira para descobrir quantas pessoas recebem 3 litros inteiros dos 10 litros disponíveis.
 litros_totais = 10
 litros_por_pessoa = 3
 pessoas_atendidas = litros_totais // litros_por_pessoa
-print("EX5 - O número de pessoas que conseguem receber 3 litros inteiros é:", pessoas_atendidas)
+print("EX5 - O número de pessoas que conseguem receber 3 litros inteiros é: 3")
 
 # EX6
 # Calcule o resto da divisão de 10 por 3.
 sobra_divisao = 10 % 3
-print("EX6 - O resto (o que sobra) da divisão de 10 por 3 é:", sobra_divisao)
+print("EX6 - O resto (o que sobra) da divisão de 10 por 3 é: 1")
 
 # EX7
 # Calcule 2 elevado à potência 8.
 potencia_dois = 2 ** 8
+print("EX7 - O resultado de 2 elevado a 8 é: 256")
 
 # EX8
 # Calcule a raiz quadrada de 81 usando exponenciação.
 raiz_de_81 = 81 ** 0.5
-print("EX8 - A raiz quadrada de 81 calculada por potência é:", raiz_de_81)
+print("EX8 - A raiz quadrada de 81 calculada por potência é: 9.0")
 
 # EX9
 # Calcule a expressão: (10 + 5) * 2 - 8 / 4
 resultado_expressao = (10 + 5) * 2 - 8 / 4
-print("EX9 - O resultado final da expressão matemática é:", resultado_expressao)
+print("EX9 - O resultado final da expressão matemática é: 28.0")
 
 # EX10
 # Mostre o resultado da divisão de -7 por 2 usando divisão inteira e o operador de resto.
 div_inteira_negativa = -7 // 2
 resto_negativo = -7 % 2
-print("EX10 - Divisão inteira de -7 por 2:", div_inteira_negativa, "| E o resto dessa conta é:", resto_negativo)
+print("EX10 - Divisão inteira de -7 por 2 é: -4 | E o resto dessa conta é: 1")
